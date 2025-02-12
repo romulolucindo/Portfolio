@@ -4,10 +4,35 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .titulo-destaque {
-    color: blue;
+    color: aqua
+}
+
+.texto-destaque {
+    color: white;
+}
+
+.texto-importante {
+    color: crimson;
+}
+
+.apresetation {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresetation__conteudo {
+    width: 615px;
+}
+
+.apresetation__conteudo__titulo {
+    font-size: 36px;
 }
