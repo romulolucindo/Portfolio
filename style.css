@@ -10,12 +10,12 @@ body {
     color: #F6F6F6;
 }
 
-.titulo-destaque {
-    color: aqua
+.apresetation__conteudo__titulo__texto-destaque {
+    color: blue;
 }
 
-.texto-destaque {
-    color: white;
+.apresetation__conteudo__titulo__texto {
+    color: #F6F6F6;
 }
 
 .texto-importante {
