@@ -61,7 +61,7 @@ body {
 .apresetation__links__buttons {
     background-color: #22d4fd;
     color: #000000;
-    width: 280px;
+    width: 190px;
     text-align: center;
     border-radius: 16px;
     font-family: 24px;
@@ -70,4 +70,9 @@ body {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 
+}
+
+.card-principal {
+    display: flex;
+    border-radius: 25%;
 }
