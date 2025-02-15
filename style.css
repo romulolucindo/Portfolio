@@ -55,7 +55,11 @@ body {
 
 .apresetation__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .apresetation__links__buttons {
@@ -75,4 +79,17 @@ body {
 .card-principal {
     display: flex;
     border-radius: 25%;
+}
+
+.apresetation__conteudo__titulo__titulo-button {
+    color: white;
+    width: 190px;
+    text-align: center;
+    font-family: 22px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    font-family: "Krona One", serif;
+
+
+
 }
