@@ -9,12 +9,15 @@ Este é um portfólio pessoal desenvolvido para apresentar minhas habilidades e 
   <img widht="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
 </div> 
 <h2>✨ Funcionalidades</h2>
-✅ Apresentação profissional com uma breve descrição sobre mim.<br>
-✅ Links para Instagram, GitHub e LinkedIn.<br>
-✅ Layout responsivo para uma melhor experiência em diferentes dispositivos.<br>
+✅ Apresentação profissional com uma breve descrição sobre mim.<br>  
+✅ Página "Sobre Mim" compartilhando minha motivação e interesse por tecnologia.<br>
+✅ Página "Currículo" com informações sobre minha formação e habilidades.<br>
+✅ Links para **Instagram, GitHub e LinkedIn**.<br>
+✅ Layout responsivo para uma melhor experiência em diferentes dispositivos.<br> 
+
 
 <h2>🔍 Acesse o deploy para visualizar! </h2>
-<a href="https://portifolio-oracle-c4og7qlqf-romulolucindos-projects.vercel.app"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+<a href="https://portifolio-oracle-one.vercel.app/"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
 
 ## 📫 Como me encontrar:
 <div>
