@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.cabecalho {
+    padding: 2% 0 0 12%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__links {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+
+}
+
+.apresetation__conteudo__titulo {
+    font-family: "Krona One", serif;
+    font-size: 26px;
+
+}
+
+.apresetation__conteudo__titulo__texto-destaque {
+    color: #22d4fd;
+}
+
+.apresetation__conteudo__titulo__texto {
+    color: #F6F6F6;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.apresetation__conteudo__titulo__texto-importante {
+    color: crimson;
+}
+
+.apresetation {
+    padding: 8% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresetation__conteudo {
+    display: flex;
+    width: 615px;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.apresetation__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.apresetation__conteudo__titulo__titulo-button {
+    color: white;
+    width: 220px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 5px 0;
+    font-family: "Krona One", serif;
+}
+
+.apresetation__links__buttons {
+    display: flex;
+    border: 6px double #22d4fd;
+    font-size: 15px;
+    justify-content: center;
+    gap: 16px;
+    color: white;
+    width: 260px;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 6px 0px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.apresetation__links__buttons:hover {
+    background-color: #252525;
+}
+
+.card-principal {
+    display: flex;
+    border-radius: 10%;
+    border: 6px double #22d4fd;
+
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    background-color: #22d4fd;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    font-weight: 400;
+}
