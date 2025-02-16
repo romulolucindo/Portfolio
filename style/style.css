@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 12%;
+    padding: 1% 0 0% 12%;
     background-color: var(--cor-terciaria);
 
 }
@@ -31,14 +31,15 @@ body {
 .cabecalho__menu {
     display: flex;
     gap: 40px;
+    padding: 0% 0% 2dvb 0%;
 }
+
 
 .cabecalho__menu__links {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     color: var(--cor-primaria);
     text-decoration: none;
-
 }
 
 .apresetation__conteudo__titulo {
@@ -121,6 +122,16 @@ body {
 
 }
 
+.curriculo__titulos {
+    font-family: var(--fonte-primaria);
+    font-size: 15px;
+}
+
+.curriculo__titulos__textos {
+    color: var(--cor-secundaria);
+    font-size: 15px;
+    font-family: var(--fonte-secundaria);
+}
 
 .rodape {
     display: flex;
