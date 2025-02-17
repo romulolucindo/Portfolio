@@ -31,7 +31,7 @@ body {
 .cabecalho__menu {
     display: flex;
     gap: 40px;
-    padding: 0% 0% 2dvb 0%;
+    padding: 0% 0% 0% 0%;
 }
 
 
@@ -44,7 +44,7 @@ body {
 
 .apresetation__conteudo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 26px;
+    font-size: 1.62rem;
 
 }
 
@@ -54,7 +54,7 @@ body {
 
 .apresetation__conteudo__titulo__texto {
     color: var(--cor-secundaria);
-    font-size: 18px;
+    font-size: 1.1rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -67,6 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 60px;
 }
 
 .apresetation__conteudo {
@@ -79,34 +80,38 @@ body {
 
 .apresetation__links {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content: start;
-    align-items: center;
     gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+
 
 }
 
 .apresetation__conteudo__titulo__titulo-button {
     color: var(--cor-secundaria);
-    width: 220px;
+    width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400px;
-    padding: 5px 0;
+    padding: 15% 0% 0% 0%;
     font-family: var(--fonte-primaria)
 }
 
 .apresetation__links__buttons {
     display: flex;
+    box-sizing: border-box;
     border: 6px double var(--cor-terciaria);
-    font-size: 15px;
+    font-size: 1rem;
     justify-content: center;
     gap: 16px;
     color: var(--cor-secundaria);
-    width: 30px;
+    width: auto;
+    max-width: 3rem;
     border-radius: 8px;
     font-weight: 400;
-    padding: 6px 0px;
+    padding: 5px 5px;
     text-decoration: none;
     font-family: var(--fonte-secundaria)
 }
@@ -115,22 +120,23 @@ body {
     background-color: var(--cor-hover);
 }
 
-.card-principal {
-    display: flex;
-    border-radius: 10%;
-    border: 6px double var(--cor-terciaria);
-
-}
 
 .curriculo__titulos {
     font-family: var(--fonte-primaria);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .curriculo__titulos__textos {
     color: var(--cor-secundaria);
-    font-size: 15px;
+    font-size: 1rem;
     font-family: var(--fonte-secundaria);
+}
+
+.card-principal {
+    width: 40%;
+    border-radius: 10%;
+    border: 6px double var(--cor-terciaria);
+
 }
 
 .rodape {
@@ -139,6 +145,45 @@ body {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    padding: 15px;
+    padding: 1%;
     font-weight: 400;
+}
+
+/* |||||||||DAQUI PRA BAIXO É SÓ RESPONSIVIDADE||||||||||| */
+
+@media (max-width: 770px) {
+    .cabecalho {
+        padding: 1%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresetation {
+        flex-direction: column-reverse;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .apresetation__conteudo {
+        width: auto;
+    }
+
+    .apresetation__conteudo__titulo {
+        text-align: center;
+    }
+
+    .card-principal {
+        width: 30%;
+    }
+
+    .apresetation__conteudo__titulo__titulo-button {
+        text-align: center;
+        width: 100%;
+    }
+
+    .apresetation__links {
+        justify-content: center;
+    }
+
 }
