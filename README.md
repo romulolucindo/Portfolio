@@ -1,7 +1,7 @@
 <h1>Portfólio - Romulo Lucindo </h1>
 
 <h2>📌 Sobre o Projeto</h2>
-Este é um portfólio pessoal desenvolvido para apresentar minhas habilidades e experiência como desenvolvedor Front-end. O site destaca alguns dos meus conhecimentos e links para minhas redes sociais.
+Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades como desenvolvedor Front-end. O site inclui informações sobre meus conhecimentos, links para minhas redes sociais e uma página "Sobre Mim", onde compartilho um pouco da minha trajetória. Além disso, há uma seção de currículo, destacando minhas experiências e qualificações.
 
 <h2>🛠 Tecnologias Utilizadas</h2>
 <div display "inline">
